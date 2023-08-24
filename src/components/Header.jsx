@@ -1,5 +1,6 @@
 import { logo, heart, box, user, cart, shield, card, truck } from "../assets";
 import "../styles/Header.scss";
+import Banner from "./Banner";
 import Nav from "./Navigation";
 import SearchBar from "./SearchBar";
 
@@ -39,6 +40,7 @@ const Header = () => {
       <section id="filtros">
         <Nav />
       </section>
+      <Banner />
     </header>
   )
 }

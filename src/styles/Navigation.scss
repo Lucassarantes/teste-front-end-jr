@@ -1,0 +1,32 @@
+nav {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  text-transform: uppercase;
+  display: flex;
+  justify-self: start;
+  
+  gap: 6.2rem;
+}
+
+li {
+  color: #9f9f9f;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: center;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.active {
+  color: #F71963;
+}
+
+.assinatura {
+  display: flex;
+  gap: 5px;
+}

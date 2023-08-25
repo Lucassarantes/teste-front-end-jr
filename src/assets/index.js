@@ -17,6 +17,7 @@ import tools from "./tools.png";
 import tech from "./tech.png";
 import next from "./next.svg";
 import prev from "./prev.svg";
+import parceiros from "./parceiros.png";
 
 export{
     lupa,
@@ -37,5 +38,6 @@ export{
     tools,
     tech,
     prev,
-    next
+    next,
+    parceiros
 }

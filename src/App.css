@@ -15,3 +15,31 @@
   font-size: 30px;
   font-weight: 700;
 }
+
+#parceiros {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 28rem;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+#produtos {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 22rem;
+  gap: 3rem;
+}
+
+.ver-todos {
+  position: relative;
+  top: 20rem;
+  color: var(--preto, #3F3F40);
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

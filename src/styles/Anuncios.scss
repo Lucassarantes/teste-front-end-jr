@@ -1,0 +1,104 @@
+.anuncios {
+  width: 544px;
+  height: 254px;
+  border-radius: 20px;
+  z-index: 0;
+  h5 {
+    width: fit-content;
+    color: var(--white, #FFF);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    z-index: 2;
+    margin-bottom: 1rem;
+    margin-right: 0;
+  }
+  p {
+    width: fit-content;
+    color: var(--white, #FFF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 10;
+    margin-right: 0;
+  }
+}
+
+.parceiros {
+    background-image: url("../assets/parceiros.png");
+}
+
+.produtos {
+    background-image: url("../assets/produtos.png");
+}
+
+.produtos {
+    position: relative;
+    width: 544px;
+    height: 254px;
+    border-radius: 20px;
+    z-index: 0;
+    h5 {
+      width: fit-content;
+      color: var(--white, #FFF);
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      z-index: 2;
+      margin-bottom: 1rem;
+      margin-right: 0;
+    }
+    p {
+      width: fit-content;
+      color: var(--white, #FFF);
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      z-index: 10;
+      margin-right: 0;
+    }
+  }
+  
+
+.overlay {
+    border-radius: 20px;
+    position: absolute;
+    width: 544px;
+    height: 254px;
+    opacity: 0.8;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 85.04%);
+}
+
+.conteudo-parceiro {
+    position: relative;
+    left: 1rem;
+    z-index: 2;
+    h4 {
+        margin-bottom: 0;
+    }
+}
+
+.conteudo-direito {
+    position: absolute;
+    //left: 10rem;
+    z-index: 2;
+    h4 {
+        margin-bottom: 0;
+    }
+}
+
+.confira {
+    color: var(--white, #FFF);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 1.28px;
+  text-transform: uppercase;
+  width: 135px;
+}

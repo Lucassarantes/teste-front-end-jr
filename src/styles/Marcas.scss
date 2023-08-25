@@ -1,0 +1,18 @@
+#marcas {
+    position: relative;
+    top: 25rem;
+    display: flex;
+    justify-content: center;
+}
+
+.marca {
+    background-image: url("../assets/circulo.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 221px;
+    height: 221px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -3,7 +3,7 @@ import Button from "./Button"
 const Anuncios = ({ titulo, texto, classes}) => {
   return (
     <section className={`anuncios ${classes}`}>
-        <div className="overlay"></div>
+        <div className="overlay-anuncios"></div>
         <div className="conteudo-parceiro">
             <h5>{titulo}</h5>
             <p>{texto}</p>

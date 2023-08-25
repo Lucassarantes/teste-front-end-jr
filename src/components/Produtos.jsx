@@ -7,6 +7,7 @@ const Produtos = () => {
   const [produtos, setProdutos] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [startIndex, setStartIndex] = useState(0);
+  const [modalIsOpen, setModalIsOpen] = useState(false);
 
   useEffect(() => {
     const fetchProdutos = async () => {
@@ -40,12 +41,22 @@ const Produtos = () => {
     }
   };
 
+  // const openModal = () => {
+  //   setModalIsOpen(true);
+  // };
+
+  // const closeModal = () => {
+  //   setModalIsOpen(false);
+  // };
+
+
   return (
     <>
         {isLoading && !produtos  ? (
             <h1>Carregando ...</h1>
         ) : (
             <div className="produto-list">
+              {/* <Modal isOpen={modalIsOpen} onClose={closeModal} content="Conteúdo do modal" /> */}
                 <button className="carousel-control" onClick={handlePrev}>
                     <img src={prev} alt="previous item button" />
                 </button>

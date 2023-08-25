@@ -8,6 +8,8 @@
 #root {
   max-width: 1440px;
   font-family: var(--font-primary);
+  display: grid;
+  overflow-x: hidden;
 }
 
 .titulo-secao {
@@ -39,6 +41,18 @@
   color: var(--preto, #3F3F40);
   text-align: center;
   font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.marcas {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 24rem;
+  color: var(--rosa-primario, #F71963);
+  font-size: 30px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;

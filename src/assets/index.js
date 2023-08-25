@@ -18,6 +18,11 @@ import tech from "./tech.png";
 import next from "./next.svg";
 import prev from "./prev.svg";
 import parceiros from "./parceiros.png";
+import face from "./face.svg";
+import insta from "./insta.svg";
+import youtube from "./youtube.svg";
+import pagamentos from "./pagamentos.svg";
+import econverse from "./econverse.svg";
 
 export{
     lupa,
@@ -39,5 +44,10 @@ export{
     tech,
     prev,
     next,
-    parceiros
+    parceiros,
+    face,
+    insta,
+    youtube,
+    pagamentos,
+    econverse
 }

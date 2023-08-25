@@ -2,6 +2,8 @@
 import Header from './components/Header'
 import Categorias from './components/Categorias'
 import './App.css'
+import Divisor from './components/Divisor'
+import Subcategorias from './components/SubCategorias'
 
 function App() {
 
@@ -9,6 +11,8 @@ function App() {
     <>
       <Header />
       <Categorias />
+      <Divisor texto={"Produtos relacionados"} />
+      <Subcategorias />
     </>
   )
 }

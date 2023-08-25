@@ -12,3 +12,18 @@
 .btn-principal:hover {
   cursor: pointer;
 }
+
+.btn-itens {
+  background-color: var(--rosa-primario);
+  width: 240px;
+  height: 44px;
+  border-radius: 4px;
+  border: none;
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}

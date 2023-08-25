@@ -1,0 +1,64 @@
+.produto-box {
+  width: 250px;
+  height: 500px;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0px 3px 19px 0px rgba(0, 0, 0, 0.22);
+  padding-left: 10px;
+  padding-top: 2rem;
+}
+
+.produto-list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    position: relative;
+    top: 22rem;
+}
+
+.lorem {
+  color: var(--preto, #3F3F40);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.frete-gratis {
+    color: var(--rosa-primario);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.preco-antigo {
+  color: #808080;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: line-through;
+  margin: 0;
+}
+
+.preco-promocao {
+  color: var(--preto, #3F3F40);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none !important;
+  margin: 0;
+}
+
+.preco-parcela {
+  color: var(--preto, #3F3F40);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.carousel-control {
+    background-color: #FFF;
+    border: none;
+}

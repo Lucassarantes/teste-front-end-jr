@@ -15,6 +15,9 @@ import market from "./market.png";
 import sports from "./sports.png";
 import tools from "./tools.png";
 import tech from "./tech.png";
+import next from "./next.svg";
+import prev from "./prev.svg";
+
 export{
     lupa,
     cart,
@@ -32,5 +35,7 @@ export{
     market,
     sports,
     tools,
-    tech
+    tech,
+    prev,
+    next
 }

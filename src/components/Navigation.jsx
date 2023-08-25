@@ -4,7 +4,7 @@ import { crown } from "../assets";
 
 const Navigation = () => {
   
-  const [filtro, setFiltro] = useState(null);
+  const [filtro, setFiltro] = useState("ofertas");
   
   const handleFiltroClick = (filtroEscolhido) => {
     if(filtro !== filtroEscolhido) {
@@ -14,7 +14,7 @@ const Navigation = () => {
   
   return (
     <nav>
-      <ul>
+      <ul id="nav-list">
         <li
           className={`${filtro === 'todasCategorias' ? 'active' : ''}`}
           onClick={() => handleFiltroClick('todasCategorias')}

@@ -8,7 +8,13 @@ import shield from "./shield.svg";
 import card from "./card.svg";
 import truck from "./truck.svg";
 import crown from "./crown.svg";
-
+import drinks from "./drinks.png";
+import fashion from "./fashion.png";
+import health from "./health.png";
+import market from "./market.png";
+import sports from "./sports.png";
+import tools from "./tools.png";
+import tech from "./tech.png";
 export{
     lupa,
     cart,
@@ -19,5 +25,12 @@ export{
     shield,
     card,
     truck,
-    crown
+    crown,
+    drinks,
+    fashion,
+    health,
+    market,
+    sports,
+    tools,
+    tech
 }

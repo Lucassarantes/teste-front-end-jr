@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header className="header">
       <section id="pequenos-textos">
-        <ul>
+        <ul id="pequenos-textos-list">
           <li>
             <p>
               <img src={shield} alt="icone shield" /> Compra&nbsp;<span>100% segura</span>

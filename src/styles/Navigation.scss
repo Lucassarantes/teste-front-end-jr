@@ -1,13 +1,12 @@
 nav {
-  width: 100%;
+  //width: 100%;
 }
 
-ul {
+#nav-list {
   list-style-type: none;
   text-transform: uppercase;
   display: flex;
   justify-self: start;
-  
   gap: 6.2rem;
 }
 
